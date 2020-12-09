@@ -1,0 +1,97 @@
+html{
+	overflow-y: visible;
+	overflow-x: hidden;
+
+}
+
+.fullbody{
+  margin:auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.investement_calulator_img{
+	opacity: .5;
+	top: 50%;
+	right: 0;
+	position: absolute;
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+	z-index: -1;
+	width: 100%;
+	min-height: 100%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border: 1px solid transparent;
+}
+
+.site-heading{
+	opacity: .5;
+	background-color: black;
+	z-index:1;
+	position: top;
+
+}
+
+.site-heading-inner{
+	z-index: 1;
+	position: relative;
+}
+
+.img-wrapper:hover{
+	filter: blur(2px);
+	opacity: .6;
+}
+
+.img-wrapper{
+	position: absolute;
+	height:100%;
+	overflow-y: hidden;
+	z-index:0;
+}
+
+h2{
+	margin-top:0px;
+}
+
+.intro-header{
+	margin-bottom: 0px;
+}
+.center{
+	padding-bottom: 20px;
+}
+
+.content-wrapper{
+	z-index: 5;
+	position: relative;
+}
+
+.ontop{
+	z-index: 10;
+}
+
+
+.collapseable{
+	width:160px;
+	height: 51px;
+	padding: 10px 15px;
+	background-color: #fb1d0f;
+	border-color: #fb1d0f;
+	margin-top: 10px;
+}
+
+.colapse{
+	/*width:160px;*/
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.badge_image{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.text{
+	display: none;
+}
